@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from 'React';
 import { createStore, compose, applyMiddleware } from "redux";
 import { Provider } from "react-redux";
 import reducer from "../reducers";
