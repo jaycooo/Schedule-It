@@ -7,7 +7,7 @@ export default function BottomInfo() {
     return (
         <div className="bottom-info">
             <a
-                href="https://github.com/wuhxxx/event-schedule"
+                href="https://github.com/jaycooo/schedule-it"
                 target="_blank"
                 rel="noopener noreferrer"
             >
