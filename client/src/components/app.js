@@ -3,8 +3,8 @@ import { createStore, compose, applyMiddleware } from "redux";
 import { Provider } from "react-redux";
 import reducer from "../reducers";
 import thunk from "redux-thunk";
-import { signUserIn } from "../actions/userActions.js";
-import { loadDemoEvents } from "../actions/eventActions.js";
+import { signUserIn } from "../actions/userAction.js";
+import { loadDemoEvents } from "../actions/eventAction.js";
 import { ToastContainer, toast } from "react-toastify";
 import {
     LOCAL_USERNAME_KEY,

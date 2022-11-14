@@ -68,7 +68,7 @@ app.use(`${BASE_API_ROUTE}/events`, eventRouter);
 // server client static build file
 app.use(express.static(path.join(__dirname, "client", "build")));
 app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+    res.sendFile(path.join(__dirname, "client", "build", "index.html" ));
 });
 
 // wildcard routing
@@ -100,19 +100,21 @@ app.use(errorLogger);
 mongoose.set("useCreateIndex", true);
 // get rid of "collection.findAndModify" DeprecationWarning
 mongoose.set("useFindAndModify", false);
+console.log(process.env)
 mongoose
     .connect(
-        MONGODB_URL,
+        "mongodb+srv://Jay:100785@schedule-it.cqsxd11.mongodb.net/?retryWrites=true&w=majority"
+,
         { useNewUrlParser: true }
     )
     .then(() => logger.info("DB connected!"))
-    .then(() => {
-        if (process.env.DATABASE_CLEANUP) {
-            // regularly clean up database
-            setInterval(databaseCleaner, REGULAR_CLEAN_INTERVAL);
-            logger.info("Database regularly cleaning up set.");
-        }
-    })
+    // .then(() => {
+    //     if (process.env.DATABASE_CLEANUP) {
+    //          regularly clean up database
+    //         setInterval(databaseCleaner, REGULAR_CLEAN_INTERVAL);
+    //         logger.info("Database regularly cleaning up set.");
+    //     }
+    // })
     .then(() => {
         // Start server and listen on the given port
         app.listen(PORT, () => {

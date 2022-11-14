@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { toTimeString } from "../../utils/timeConverters.js";
-import { toHexColor } from "../../utils/colorConverters.js";
+import { toTimeString } from "../../utils/timeConverter.js";
+import { toHexColor } from "../../utils/colorConverter.js";
 import {
     EVENT_SLOT_HEIGHT,
     TIMELINE_UNIT_DURATION,

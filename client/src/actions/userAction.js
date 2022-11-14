@@ -1,6 +1,6 @@
 import axios from "axios";
 import { USER_LOG_OUT, USER_SIGN_IN } from "./actionTypes.js";
-import { loadUserEvents, clearEvents } from "./eventActions.js";
+import { loadUserEvents, clearEvents } from "./eventAction.js";
 import {
     AUTH_HEADER,
     LOCAL_USERNAME_KEY,

@@ -1,4 +1,4 @@
-/* eslint-disable import/no-anonymous-default-export */
+
 import {
     SET_EVENTS,
     ADD_EVENT,

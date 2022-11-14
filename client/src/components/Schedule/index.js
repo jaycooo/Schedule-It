@@ -10,8 +10,8 @@ import AddIcon from "@material-ui/icons/Add";
 import Tooltip from "@material-ui/core/Tooltip";
 import { withStyles } from "@material-ui/core/styles";
 import CircularProgress from "@material-ui/core/CircularProgress";
-import { logUserOut } from "../../actions/userActions.js";
-import { loadUserEvents, clearError } from "../../actions/eventActions.js";
+import { logUserOut } from "../../actions/userAction.js";
+import { loadUserEvents, clearError } from "../../actions/eventAction.js";
 import {
     TIMELINE_UNIT_DURATION,
     EVENT_SLOT_HEIGHT,

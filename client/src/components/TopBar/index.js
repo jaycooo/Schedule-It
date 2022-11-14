@@ -3,11 +3,11 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import LoginModal from "./LoginModal.js";
 import { RESET_FORM, SIGNIN_FORM, SIGNUP_FORM } from "../../constants";
-import { logUserOut } from "../../actions/userActions.js";
+import { logUserOut } from "../../actions/userAction.js";
 import { toast } from "react-toastify";
 import classTogglerBuilder from "../../utils/classTogglerBuilder.js";
 
-import logo from "../../assets/images/cd-logo.svg";
+import logo from "../../assets/images/cd-logo-origin.svg";
 import "../../styles/TopBar.css";
 
 class TopBar extends Component {

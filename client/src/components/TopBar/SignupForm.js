@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 import classTogglerBuilder from "../../utils/classTogglerBuilder.js";
 import { userFormInputValidators } from "../../utils/validators.js";
 import { connect } from "react-redux";
-import { signUserIn } from "../../actions/userActions.js";
+import { signUserIn } from "../../actions/userAction.js";
 import {
     USERNAME,
     USERNAME_ERROR,

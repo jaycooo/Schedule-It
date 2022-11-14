@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import axios from "axios";
 import { toast } from "react-toastify";
 import { connect } from "react-redux";
-import { signUserIn } from "../../actions/userActions.js";
+import { signUserIn } from "../../actions/userAction.js";
 import classTogglerBuilder from "../../utils/classTogglerBuilder.js";
 import { userFormInputValidators } from "../../utils/validators.js";
 import {

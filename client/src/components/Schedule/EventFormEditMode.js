@@ -8,9 +8,9 @@ import Button from "@material-ui/core/Button";
 import MenuItem from "@material-ui/core/MenuItem";
 import TextField from "@material-ui/core/TextField";
 import { withStyles } from "@material-ui/core/styles";
-import { toHexColor, toDecimal } from "../../utils/colorConverters.js";
-import { toTimeString, toNumOfMinutes } from "../../utils/timeConverters.js";
-import { addEvent, updateEvent, setError } from "../../actions/eventActions.js";
+import { toHexColor, toDecimal } from "../../utils/colorConverter";
+import { toTimeString, toNumOfMinutes } from "../../utils/timeConverter";
+import { addEvent, updateEvent, setError } from "../../actions/eventAction";
 import {
     WEEK_DAYS,
     DEFAULT_EVENT,

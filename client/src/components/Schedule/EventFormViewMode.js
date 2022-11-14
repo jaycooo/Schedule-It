@@ -6,10 +6,10 @@ import { toast } from "react-toastify";
 import EditIcon from "@material-ui/icons/Edit";
 import DeleteIcon from "@material-ui/icons/Delete";
 import IconButton from "@material-ui/core/IconButton";
-import { toTimeString } from "../../utils/timeConverters.js";
-import { toHexColor } from "../../utils/colorConverters.js";
+import { toTimeString } from "../../utils/timeConverter.js";
+import { toHexColor } from "../../utils/colorConverter.js";
 import { DEFAULT_EVENT, EVENT_API_ROUTE } from "../../constants";
-import { deleteEvents, setError } from "../../actions/eventActions.js";
+import { deleteEvents, setError } from "../../actions/eventAction.js";
 
 import "../../styles/EventForm.css";
 

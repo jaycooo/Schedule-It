@@ -15,4 +15,4 @@ module.exports = new Intl.DateTimeFormat("en-US", options);
 
 // Usage:
 // const d = new Intl.DateTimeFormat("en-US", options);
-// console.log(d.format(new Date())); //Oct 1, 2018, 17:30:06 PDT
+// console.log(d.format(new Date())); //Nov 14, 2022, 17:30:06 PDT
