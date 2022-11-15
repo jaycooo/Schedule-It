@@ -8,7 +8,7 @@
 }
 
 .App-header {
-    background-color: #282c34;
+    background-color: #404653;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -33,6 +33,6 @@
 
 /* react toastify, toast style */
 .toast {
-    font-family: "PT Sans", sans-serif;
+    font-family: "Fantasy", sans-serif;
     text-align: center;
 }

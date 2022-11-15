@@ -1,7 +1,7 @@
 /* font family for TopBar, not the same as Schedule. */
 
 body {
-    font-family: "PT Sans", sans-serif;
+    font-family: "Fantasy", sans-serif;
 }
 
 /* -------------------------------- 
@@ -42,10 +42,10 @@ Login/Signup modal window - by CodyHouse.co
 }
 
 .cd-main-header__logo > .header-title {
-    margin-left: 5%;
+    margin-inline: 10%;
     white-space: nowrap;
     /* padding-left: 5%; */
-    color: #ffffff;
+    color: #f7eeee;
     font-size: 1.2em;
 }
 
@@ -105,7 +105,7 @@ Login/Signup modal window - by CodyHouse.co
     padding-left: 5%;
     background: #292a34;
     /* border-top: 1px solid #3b3d4b; */
-    color: #fff;
+    color: rgb(245, 240, 240);
 }
 
 /* when width is 768px or wider */
@@ -160,10 +160,10 @@ Login/Signup modal window - by CodyHouse.co
     }
     .cd-main-nav__item.cd-main-nav__item--signup {
         border-radius: 50em;
-        background: #2f889a;
+        background: #cc40ae;
     }
     .cd-main-nav__item.cd-main-nav__item--signup:hover {
-        background-color: #3291a4;
+        background-color: #e9a3cc;
     }
     .cd-main-nav__item.top-bar-nav--welcome-msg {
         font-size: 1.15em;
@@ -173,6 +173,6 @@ Login/Signup modal window - by CodyHouse.co
         border: 1px solid rgba(255, 255, 255, 0.6);
     }
     .cd-main-nav__item.top-bar-nav__item--logout:hover {
-        background-color: #414351;
+        background-color: #3b3639;
     }
 }

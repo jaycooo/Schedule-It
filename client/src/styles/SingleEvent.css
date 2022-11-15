@@ -65,7 +65,7 @@
 .event-name,
 .event-date {
     display: block;
-    color: white;
+    color: rgb(10, 10, 10);
     font-weight: bold;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
