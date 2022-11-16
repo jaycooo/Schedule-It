@@ -79,7 +79,7 @@ class TopBar extends Component {
             <div>
                 <header className="cd-main-header">
                     <div className="cd-main-header__logo">
-                        <img src={logo} alt="Logo" />
+                        <img src="https://www.westonschools.org/middle/wp-content/uploads/sites/5/2020/10/105-1059879_clipart-calendar-meeting-schedule.png" alt="Logo" />
                         <span className="header-title">Schedule-It!</span>
                     </div>
 
