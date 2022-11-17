@@ -207,6 +207,4 @@ const restorativeYoga = [
         weekday: 3
     }
 ];
-
-// eslint-disable-next-line import/no-anonymous-default-export
 export default [...absCircuit, ...rowingWorkout, ...yoga, ...restorativeYoga];
