@@ -70,7 +70,7 @@ const rowingWorkout = [
     },
     {
         eventId: "1545273914857",
-        title: "Rowing Workout",
+        title: "Web API's",
         location: "Recreational Sports Facility",
         description:
             "Rowing Workout. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, unde, nulla. Vel unde deleniti, distinctio inventore quis molestiae perferendis, eum quo harum dolorum reiciendis sunt dicta maiores similique! Officiis repellat iure odio debitis enim eius commodi quae deserunt quam assumenda, ab asperiores reiciendis minima maxime odit laborum, libero veniam non?",
