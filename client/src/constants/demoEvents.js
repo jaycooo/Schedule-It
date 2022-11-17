@@ -12,7 +12,7 @@ const absCircuit = [
     },
     {
         eventId: "1545273914852",
-        title: "Abs Circuit",
+        title: "React Class",
         location: "Wheeler 150",
         description:
             "Abs Circuit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, unde, nulla. Vel unde deleniti, distinctio inventore quis molestiae perferendis, eum quo harum dolorum reiciendis sunt dicta maiores similique! Officiis repellat iure odio debitis enim eius commodi quae deserunt quam assumenda, ab asperiores reiciendis minima maxime odit laborum, libero veniam non?",
@@ -23,7 +23,7 @@ const absCircuit = [
     },
     {
         eventId: "1545273914853",
-        title: "Abs Circuit",
+        title: "State Class",
         location: "Wheeler 150",
         description:
             "Abs Circuit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, unde, nulla. Vel unde deleniti, distinctio inventore quis molestiae perferendis, eum quo harum dolorum reiciendis sunt dicta maiores similique! Officiis repellat iure odio debitis enim eius commodi quae deserunt quam assumenda, ab asperiores reiciendis minima maxime odit laborum, libero veniam non?",
