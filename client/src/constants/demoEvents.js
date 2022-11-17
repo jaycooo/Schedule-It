@@ -81,7 +81,7 @@ const rowingWorkout = [
     },
     {
         eventId: "1545273914858",
-        title: "Rowing Workout",
+        title: "Advanced CSS",
         location: "Recreational Sports Facility",
         description:
             "Rowing Workout. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, unde, nulla. Vel unde deleniti, distinctio inventore quis molestiae perferendis, eum quo harum dolorum reiciendis sunt dicta maiores similique! Officiis repellat iure odio debitis enim eius commodi quae deserunt quam assumenda, ab asperiores reiciendis minima maxime odit laborum, libero veniam non?",
@@ -92,7 +92,7 @@ const rowingWorkout = [
     },
     {
         eventId: "1545273914859",
-        title: "Rowing Workout",
+        title: "GIT",
         location: "Recreational Sports Facility",
         description:
             "Rowing Workout. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, unde, nulla. Vel unde deleniti, distinctio inventore quis molestiae perferendis, eum quo harum dolorum reiciendis sunt dicta maiores similique! Officiis repellat iure odio debitis enim eius commodi quae deserunt quam assumenda, ab asperiores reiciendis minima maxime odit laborum, libero veniam non?",
