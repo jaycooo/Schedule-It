@@ -34,7 +34,7 @@ const absCircuit = [
     },
     {
         eventId: "1545273914854",
-        title: "Abs Circuit",
+        title: "No SQL",
         location: "Wheeler 150",
         description:
             "Abs Circuit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, unde, nulla. Vel unde deleniti, distinctio inventore quis molestiae perferendis, eum quo harum dolorum reiciendis sunt dicta maiores similique! Officiis repellat iure odio debitis enim eius commodi quae deserunt quam assumenda, ab asperiores reiciendis minima maxime odit laborum, libero veniam non?",
@@ -45,7 +45,7 @@ const absCircuit = [
     },
     {
         eventId: "1545273914855",
-        title: "Abs Circuit",
+        title: "Object-Relational Mapping",
         location: "Wheeler 150",
         description:
             "Abs Circuit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, unde, nulla. Vel unde deleniti, distinctio inventore quis molestiae perferendis, eum quo harum dolorum reiciendis sunt dicta maiores similique! Officiis repellat iure odio debitis enim eius commodi quae deserunt quam assumenda, ab asperiores reiciendis minima maxime odit laborum, libero veniam non?",
@@ -59,7 +59,7 @@ const absCircuit = [
 const rowingWorkout = [
     {
         eventId: "1545273914856",
-        title: "Rowing Workout",
+        title: "Express js",
         location: "Recreational Sports Facility",
         description:
             "Rowing Workout. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, unde, nulla. Vel unde deleniti, distinctio inventore quis molestiae perferendis, eum quo harum dolorum reiciendis sunt dicta maiores similique! Officiis repellat iure odio debitis enim eius commodi quae deserunt quam assumenda, ab asperiores reiciendis minima maxime odit laborum, libero veniam non?",
