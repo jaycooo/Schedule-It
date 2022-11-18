@@ -69,3 +69,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 This is a single-page event schedule web application which allows users to register/login and add/delete/remove events on weekday. Developed with MERN stack.
+
+The purpose of this app is to help with scheduling and to make everyone a better student 
